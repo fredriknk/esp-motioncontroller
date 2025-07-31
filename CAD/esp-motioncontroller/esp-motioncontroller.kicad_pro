@@ -680,6 +680,54 @@
     [
       "7073fa4d-a34b-48a0-bf2b-ee5933080945",
       "InputOutput"
+    ],
+    [
+      "716a61b4-7ae9-4548-b42a-ef0e5f477277",
+      "DIFF_INPUT2"
+    ],
+    [
+      "d5bc46af-30ee-4950-8843-8a5ec9767e13",
+      "DIFF_INPUT1"
+    ],
+    [
+      "f900643f-7634-4ac3-a03b-e3262540f34f",
+      "DIFF_OUTPUT1"
+    ],
+    [
+      "6c5de223-2f9d-4dc9-97bd-ca59af38aba6",
+      "DIFF_INPUT3"
+    ],
+    [
+      "28e969f3-b790-4ce2-80c2-6c81c351d3cf",
+      "DIFF_INPUT4"
+    ],
+    [
+      "49482968-2863-42ac-bc89-b94ecce21bbc",
+      "DIFF_INPUT5"
+    ],
+    [
+      "3fa11d85-8ee8-4670-9bda-e6549e9e282d",
+      "DIFF_INPUT6"
+    ],
+    [
+      "9bd3f5a5-381b-4a03-8595-2655a1444ed5",
+      "DIFF_OUTPUT2"
+    ],
+    [
+      "2a79f61a-2c15-4f6f-aed7-0d36e25335d6",
+      "DIFF_OUTPUT3"
+    ],
+    [
+      "02aab43e-baf0-4663-b348-da53c78f1a96",
+      "DIFF_OUTPUT4"
+    ],
+    [
+      "a18e38f2-7464-45b3-b5d0-f383610d31db",
+      "DIFF_OUTPUT5"
+    ],
+    [
+      "7f7534fd-4327-44f0-94b4-64ab515542ef",
+      "DIFF_OUTPUT6"
     ]
   ],
   "text_variables": {}
