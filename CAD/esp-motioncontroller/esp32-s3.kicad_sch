@@ -5,264 +5,6 @@
 	(uuid "b51f6ad1-83bb-4ff2-88a5-98acabcc7fcc")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x06"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x06"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x06_1_1"
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -2593,16 +2335,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 26.67) (xy 137.16 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "069ca209-94ec-478b-90f0-bba3d9a8ef10")
-	)
-	(wire
-		(pts
 			(xy 222.25 90.17) (xy 222.25 80.01)
 		)
 		(stroke
@@ -2663,16 +2395,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 39.37) (xy 137.16 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d2c85d0-6d17-4511-98c8-ef6a24ac0a72")
-	)
-	(wire
-		(pts
 			(xy 199.39 74.93) (xy 201.93 74.93)
 		)
 		(stroke
@@ -2703,16 +2425,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 29.21) (xy 137.16 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ae0285b-fd38-4eaa-b908-49526d937c10")
-	)
-	(wire
-		(pts
 			(xy 242.57 74.93) (xy 242.57 90.17)
 		)
 		(stroke
@@ -2740,26 +2452,6 @@
 			(type default)
 		)
 		(uuid "647f4aba-284a-414e-8a4f-bb836ae037fe")
-	)
-	(wire
-		(pts
-			(xy 132.08 34.29) (xy 137.16 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "698f078b-9e02-4e9f-9b61-2860e1cf4ffa")
-	)
-	(wire
-		(pts
-			(xy 132.08 31.75) (xy 137.16 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e988c80-9f69-4b85-bd1f-c80b2d4c5906")
 	)
 	(wire
 		(pts
@@ -2800,16 +2492,6 @@
 			(type default)
 		)
 		(uuid "94a8cb78-7619-4d10-9c21-7db07a4b8da1")
-	)
-	(wire
-		(pts
-			(xy 119.38 36.83) (xy 137.16 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d7b1b7b-b202-4e08-ac56-04f1f44eab2e")
 	)
 	(wire
 		(pts
@@ -2971,16 +2653,6 @@
 		)
 		(uuid "fd483385-4ae5-41bd-92cc-731b21de04cf")
 	)
-	(label "tx"
-		(at 132.08 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "221155e5-70e6-48ea-92c5-24e1da079239")
-	)
 	(label "VIN_P"
 		(at 190.5 74.93 0)
 		(effects
@@ -2990,16 +2662,6 @@
 			(justify left bottom)
 		)
 		(uuid "41901d42-bfbe-476d-86b7-0980b498d062")
-	)
-	(label "boot"
-		(at 132.08 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "432a2457-c9a7-4059-9a9d-2f3756d7c1c9")
 	)
 	(label "SW"
 		(at 226.06 74.93 0)
@@ -3021,26 +2683,6 @@
 		)
 		(uuid "75919af4-f4a8-4d19-93b9-efb545e52b33")
 	)
-	(label "enbl"
-		(at 132.08 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9d0128f4-3b4a-4e15-84c6-17a4ce475e44")
-	)
-	(label "rx"
-		(at 132.08 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aaba3c97-7de9-4d2c-9394-fea8ba2f560c")
-	)
 	(label "5VUP"
 		(at 246.38 74.93 0)
 		(effects
@@ -3053,7 +2695,7 @@
 	)
 	(hierarchical_label "RE{slash}DE"
 		(shape input)
-		(at 119.38 110.49 0)
+		(at 151.13 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3062,20 +2704,9 @@
 		)
 		(uuid "0cd7c94b-f84c-4f3c-896c-f45c126f83d6")
 	)
-	(hierarchical_label "HO3"
-		(shape input)
-		(at 119.38 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3e1bddf2-b3b9-4211-babe-a32144b026da")
-	)
 	(hierarchical_label "TXD"
 		(shape input)
-		(at 119.38 59.69 0)
+		(at 151.13 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3083,6 +2714,17 @@
 			(justify left)
 		)
 		(uuid "3fbc333a-69cf-4289-84a5-404e06d837f4")
+	)
+	(hierarchical_label "HIO1"
+		(shape input)
+		(at 68.58 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ac4c580-896e-4706-a3a8-cd1e24383056")
 	)
 	(hierarchical_label "OPTO_OUT_MCU_2"
 		(shape input)
@@ -3094,6 +2736,17 @@
 			(justify left)
 		)
 		(uuid "755e6768-380c-4714-9a47-211a56fc67da")
+	)
+	(hierarchical_label "HIO3"
+		(shape input)
+		(at 68.58 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "797ba2c9-d4f5-4c52-96a7-44f2543bd20d")
 	)
 	(hierarchical_label "OPTO_IN_MCU_4"
 		(shape output)
@@ -3117,6 +2770,17 @@
 		)
 		(uuid "819dcc2e-aa9f-4dfe-865b-18a534f45f14")
 	)
+	(hierarchical_label "HIO4"
+		(shape input)
+		(at 68.58 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "883b75b8-8ece-42ba-8c72-31c1fd9ddcd6")
+	)
 	(hierarchical_label "OPTO_OUT_MCU_4"
 		(shape input)
 		(at 119.38 107.95 0)
@@ -3139,16 +2803,16 @@
 		)
 		(uuid "9a63a053-647c-43e8-a001-6482f72da59d")
 	)
-	(hierarchical_label "HO1"
+	(hierarchical_label "HIO2"
 		(shape input)
-		(at 119.38 72.39 0)
+		(at 68.58 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "a8babeba-b988-4dc8-8687-ad7ba4230809")
+		(uuid "aa9cf76b-d1ba-4eb0-aea5-9cc12e58686f")
 	)
 	(hierarchical_label "OPTO_IN_MCU_2"
 		(shape output)
@@ -3161,17 +2825,6 @@
 		)
 		(uuid "ab0d9df4-b0a6-4291-ab11-0339ae735d2b")
 	)
-	(hierarchical_label "HO4"
-		(shape input)
-		(at 119.38 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b49f2f45-eae4-46dc-8e85-443e33490a48")
-	)
 	(hierarchical_label "OPTO_OUT_MCU_3"
 		(shape input)
 		(at 119.38 105.41 0)
@@ -3183,20 +2836,9 @@
 		)
 		(uuid "d4d2a2b3-7e29-4e98-ac3f-0b8455eebda3")
 	)
-	(hierarchical_label "HO2"
-		(shape input)
-		(at 119.38 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d7c93cc0-41bb-47ee-9c5f-23deb967934b")
-	)
 	(hierarchical_label "RXD"
 		(shape output)
-		(at 119.38 57.15 0)
+		(at 151.13 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3215,17 +2857,6 @@
 			(justify left)
 		)
 		(uuid "fdec0b94-c6f8-46b7-8e12-12aab13b91ac")
-	)
-	(hierarchical_label "ENBL_HO"
-		(shape input)
-		(at 119.38 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ff50100c-e60d-4c11-9f8a-dfe6a3a4b865")
 	)
 	(symbol
 		(lib_id "Library:C")
@@ -3640,96 +3271,6 @@
 			(project "esp-motioncontroller"
 				(path "/0b277f12-117f-4a37-9ea2-a6daef96bce5/f24eaa44-a854-4bd1-9cd7-06c10f3203df"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 142.24 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20c9a992-2abf-4611-a85a-c7b6d318bb8a")
-		(property "Reference" "J1"
-			(at 144.78 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06"
-			(at 144.78 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 142.24 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 142.24 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 142.24 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cef7c2a5-7eeb-4ec9-980c-96b29330cb2b")
-		)
-		(pin "2"
-			(uuid "af9f7b40-96a7-459d-a35e-fa87b7e8d827")
-		)
-		(pin "3"
-			(uuid "09ea87e1-863b-46f8-abf6-482c382d4266")
-		)
-		(pin "4"
-			(uuid "8b4fb35f-5f07-4116-8620-ddc556908acc")
-		)
-		(pin "5"
-			(uuid "48fb803e-3339-44e2-803f-4d5d7655e924")
-		)
-		(pin "6"
-			(uuid "59bf29cc-a328-47aa-8fa3-d7257cebab53")
-		)
-		(instances
-			(project "esp-motioncontroller"
-				(path "/0b277f12-117f-4a37-9ea2-a6daef96bce5/f24eaa44-a854-4bd1-9cd7-06c10f3203df"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5814,139 +5355,6 @@
 			(project "esp-motioncontroller"
 				(path "/0b277f12-117f-4a37-9ea2-a6daef96bce5/f24eaa44-a854-4bd1-9cd7-06c10f3203df"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8295b4d-d212-485f-9d7a-20b1018ccc03")
-		(property "Reference" "#PWR05"
-			(at 125.73 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8521c07-0465-44a5-a63d-87b40c515509")
-		)
-		(instances
-			(project "esp-motioncontroller"
-				(path "/0b277f12-117f-4a37-9ea2-a6daef96bce5/f24eaa44-a854-4bd1-9cd7-06c10f3203df"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 125.73 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc99b101-2df0-4671-91ee-359968cfe477")
-		(property "Reference" "#PWR04"
-			(at 125.73 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 128.27 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1ce8bc7-9982-44dd-a43b-d1529cb3b848")
-		)
-		(instances
-			(project "esp-motioncontroller"
-				(path "/0b277f12-117f-4a37-9ea2-a6daef96bce5/f24eaa44-a854-4bd1-9cd7-06c10f3203df"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)

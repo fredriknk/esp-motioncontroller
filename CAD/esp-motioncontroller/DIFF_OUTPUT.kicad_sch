@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "af54304a-4ec0-4920-87c9-f034c02546de")
+	(uuid "7748f0b0-dab7-4b67-b43f-97c6bbd09aa2")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:R_Pack04"
@@ -2155,7 +2155,7 @@
 	)
 	(hierarchical_label "IOP"
 		(shape input)
-		(at 187.96 86.36 0)
+		(at 187.96 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2166,7 +2166,7 @@
 	)
 	(hierarchical_label "ION"
 		(shape input)
-		(at 187.96 93.98 0)
+		(at 187.96 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2903,7 +2903,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C17477"
+		(property "LCSC Part #" "C21189"
 			(at 172.72 87.63 0)
 			(effects
 				(font
@@ -3387,6 +3387,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C29718"
+			(at 110.49 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a05d014-390c-4932-ba8a-637b2ec88de5")
 		)
@@ -3609,7 +3618,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C17477"
+		(property "LCSC Part #" "C21189"
 			(at 172.72 92.71 0)
 			(effects
 				(font

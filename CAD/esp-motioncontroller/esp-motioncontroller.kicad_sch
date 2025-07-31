@@ -216,16 +216,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 62.23) (xy 142.24 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "161df701-dc65-427c-ab91-390237bc907e")
-	)
-	(wire
-		(pts
 			(xy 137.16 85.09) (xy 142.24 85.09)
 		)
 		(stroke
@@ -236,13 +226,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 64.77) (xy 142.24 64.77)
+			(xy 137.16 60.96) (xy 142.24 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30ebecfa-bf83-437f-9053-56e1611cdeb4")
+		(uuid "3e7145e4-1ef5-4fbc-9160-0ffc538a357d")
 	)
 	(wire
 		(pts
@@ -286,6 +276,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 55.88) (xy 142.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61dabefd-64bf-48b0-bebd-be8ea860057c")
+	)
+	(wire
+		(pts
 			(xy 137.16 87.63) (xy 142.24 87.63)
 		)
 		(stroke
@@ -303,26 +303,6 @@
 			(type default)
 		)
 		(uuid "72eceeb9-c310-420d-9dad-a816442a7215")
-	)
-	(wire
-		(pts
-			(xy 137.16 57.15) (xy 142.24 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72f36a96-6d17-489f-b654-198610323070")
-	)
-	(wire
-		(pts
-			(xy 137.16 59.69) (xy 142.24 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ed4c6b6-804d-46bf-97f2-84f153521c65")
 	)
 	(wire
 		(pts
@@ -366,6 +346,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 63.5) (xy 142.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e166ceb4-497f-423c-a770-e593a2a6e6e2")
+	)
+	(wire
+		(pts
 			(xy 137.16 73.66) (xy 142.24 73.66)
 		)
 		(stroke
@@ -373,6 +363,16 @@
 			(type default)
 		)
 		(uuid "e68ae174-45c4-4403-b466-4331cd8e4435")
+	)
+	(wire
+		(pts
+			(xy 137.16 58.42) (xy 142.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9dd32d6-366f-4693-aa2b-37f916d8be74")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -949,46 +949,6 @@
 				(justify left)
 			)
 		)
-		(pin "HO1" input
-			(at 142.24 57.15 180)
-			(uuid "1270d8d2-41bd-4f25-9845-0acac64a9dbb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HO2" input
-			(at 142.24 59.69 180)
-			(uuid "c0e55f86-a1ff-42c9-b243-d87edbf7c6b1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HO3" input
-			(at 142.24 62.23 180)
-			(uuid "53f91df3-efe8-44b0-9966-890898473af1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HO4" input
-			(at 142.24 64.77 180)
-			(uuid "4eb2991e-1deb-40b6-850d-1ddcfb7ff06d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RE{slash}DE" input
 			(at 142.24 95.25 180)
 			(uuid "a95f0ba9-c5b3-48c8-96c0-da6209d2c971")
@@ -1099,6 +1059,46 @@
 				(justify left)
 			)
 		)
+		(pin "HIO1" input
+			(at 142.24 55.88 180)
+			(uuid "775cdc15-0810-4cc8-a66a-6873f9b90496")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HIO2" input
+			(at 142.24 58.42 180)
+			(uuid "db8e678f-cc84-4ef8-8b17-8b9b7b5f9111")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HIO3" input
+			(at 142.24 60.96 180)
+			(uuid "8182adde-e5a7-471c-8267-1de65a504332")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HIO4" input
+			(at 142.24 63.5 180)
+			(uuid "ba360ee4-40a7-4528-a7cb-11fc4f2d524c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "esp-motioncontroller"
 				(path "/0b277f12-117f-4a37-9ea2-a6daef96bce5"
@@ -1144,46 +1144,6 @@
 		(pin "ENBL_HO" input
 			(at 137.16 52.07 0)
 			(uuid "43022e47-ab43-4fc3-b3e9-9864c52ab388")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HO1" input
-			(at 137.16 57.15 0)
-			(uuid "f1d00443-18b9-4ad3-bbda-cb657d577e9c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HO2" input
-			(at 137.16 59.69 0)
-			(uuid "d58ee06b-2c86-41fa-a5aa-e87851a01a2b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HO3" input
-			(at 137.16 62.23 0)
-			(uuid "cfe1b13a-4155-4bf7-a1d7-2ac38e9d6ad9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HO4" input
-			(at 137.16 64.77 0)
-			(uuid "59bb2774-172b-4648-9559-6a40af6146f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1294,6 +1254,46 @@
 		(pin "OPTO_OUT_MCU_4" input
 			(at 137.16 87.63 0)
 			(uuid "c428fd93-c591-4208-993e-cd1aa69e6a80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HIO1" input
+			(at 137.16 55.88 0)
+			(uuid "70125c15-c4b7-463f-a2e2-129c8c5d31f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HIO2" input
+			(at 137.16 58.42 0)
+			(uuid "4865abe2-f9e3-4e09-978e-7e2f1cb6372b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HIO3" input
+			(at 137.16 60.96 0)
+			(uuid "82436242-3a90-42f4-a273-170b3fec3a47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HIO4" input
+			(at 137.16 63.5 0)
+			(uuid "94fb3413-5ac6-4dbf-bb79-bcdb843a3ac9")
 			(effects
 				(font
 					(size 1.27 1.27)

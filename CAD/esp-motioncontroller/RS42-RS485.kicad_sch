@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "bb4a9146-2bf9-4f54-8ece-ed10684b20d0")
+	(uuid "ab867fcb-88bd-484f-a080-8b67090a8a29")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:R_Pack04"
@@ -2155,7 +2155,7 @@
 	)
 	(hierarchical_label "ION"
 		(shape input)
-		(at 170.18 91.44 0)
+		(at 170.18 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2188,7 +2188,7 @@
 	)
 	(hierarchical_label "IOP"
 		(shape input)
-		(at 170.18 83.82 0)
+		(at 170.18 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2706,6 +2706,15 @@
 		)
 		(property "Description" "4 resistor network, parallel topology"
 			(at 92.71 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C29718"
+			(at 92.71 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,7 +3423,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C17477"
+		(property "LCSC Part #" "C21189"
 			(at 154.94 85.09 0)
 			(effects
 				(font
@@ -3521,7 +3530,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C17477"
+		(property "LCSC Part #" "C21189"
 			(at 154.94 90.17 0)
 			(effects
 				(font
