@@ -4,8 +4,113 @@
 	(generator_version "9.0")
 	(uuid "0b277f12-117f-4a37-9ea2-a6daef96bce5")
 	(paper "A4")
+	(title_block
+		(date "2025-08-04")
+		(rev "1.0.0")
+	)
 	(lib_symbols
-		(symbol "Mechanical:MountingHole_Pad"
+		(symbol "Library:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Library:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
 			)
@@ -95,107 +200,6 @@
 					(at 0 -2.54 90)
 					(length 2.54)
 					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -425,7 +429,7 @@
 		(uuid "eeee7221-53e5-4d49-a8d6-3b5bb103a831")
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Library:MountingHole_Pad")
 		(at 256.54 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -452,7 +456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "Library:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 256.54 26.67 0)
 			(effects
 				(font
@@ -492,7 +496,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Library:GND")
 		(at 243.84 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -558,7 +562,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Library:MountingHole_Pad")
 		(at 231.14 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -585,7 +589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "Library:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 231.14 26.67 0)
 			(effects
 				(font
@@ -625,7 +629,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Library:MountingHole_Pad")
 		(at 218.44 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -652,7 +656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "Library:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 218.44 26.67 0)
 			(effects
 				(font
@@ -692,7 +696,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Library:GND")
 		(at 218.44 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -758,7 +762,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Library:GND")
 		(at 231.14 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -824,7 +828,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Library:MountingHole_Pad")
 		(at 243.84 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -851,7 +855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "Library:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 243.84 26.67 0)
 			(effects
 				(font
@@ -891,7 +895,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Library:GND")
 		(at 256.54 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)

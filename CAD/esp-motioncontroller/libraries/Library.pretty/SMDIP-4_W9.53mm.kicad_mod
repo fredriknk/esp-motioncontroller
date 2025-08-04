@@ -1,0 +1,254 @@
+(footprint "SMDIP-4_W9.53mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4-lead surface-mounted (SMD) DIP package, row spacing 9.53mm (375 mils)")
+	(tags "SMD DIP DIL PDIP SMDIP 2.54mm 9.53mm 375mil")
+	(property "Reference" "REF**"
+		(at 5 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "2beb534c-40c7-4814-822d-7f24aa981616")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LTV-817S"
+		(at 0 3.6 0)
+		(layer "F.Fab")
+		(uuid "5f6069e8-b94e-4804-9fba-d708561e9992")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9db588b-a5fb-49c8-b15c-a21f56469174")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad31e789-3100-4381-9ccb-205cdba2d7c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part #" "C109227"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7634d914-fcc5-4465-b293-d86b9d028159")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c814bd39-4695-4d41-aa50-3c01085d4955")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.235 -2.6)
+		(end -3.235 2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecaaec1d-d9df-4255-a3c5-0096d5e60e60")
+	)
+	(fp_line
+		(start -3.235 2.6)
+		(end 3.235 2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1077fa44-6383-4623-be7c-0dec6e934a08")
+	)
+	(fp_line
+		(start -1 -2.6)
+		(end -3.235 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6af5921a-6baf-4e07-9836-4142f07d8eee")
+	)
+	(fp_line
+		(start 3.235 -2.6)
+		(end 1 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47424be3-38af-48c8-9eff-e856373e202c")
+	)
+	(fp_line
+		(start 3.235 2.6)
+		(end 3.235 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51f07bee-5bc9-4b6a-9410-1eff72ae9b06")
+	)
+	(fp_arc
+		(start 1 -2.6)
+		(mid 0 -1.6)
+		(end -1 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "313ca909-1d39-417e-84a1-906ca09a3e2a")
+	)
+	(fp_rect
+		(start -6.02 -2.79)
+		(end 6.02 2.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "242ee406-a5b7-4da8-84ad-47167da899e5")
+	)
+	(fp_line
+		(start -3.175 -1.54)
+		(end -2.175 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7332ec99-659e-47bf-b0fb-c2b14a224d61")
+	)
+	(fp_line
+		(start -3.175 2.54)
+		(end -3.175 -1.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d97bb62-b238-44c2-b592-bebe7f5e1f2a")
+	)
+	(fp_line
+		(start -2.175 -2.54)
+		(end 3.175 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac3f103a-12b0-4113-8025-688cc89a469e")
+	)
+	(fp_line
+		(start 3.175 -2.54)
+		(end 3.175 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "871b1100-9fc4-4847-b282-e35fdbe1db3f")
+	)
+	(fp_line
+		(start 3.175 2.54)
+		(end -3.175 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c877174c-be90-45c0-8866-c57106e5ae50")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "75f70df2-3a8e-4694-a731-a24d49eecba8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.765 -1.27)
+		(size 2 1.78)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.140449)
+		(uuid "bbf50c3d-a56e-4a3b-aaa5-10cced15d211")
+	)
+	(pad "2" smd roundrect
+		(at -4.765 1.27)
+		(size 2 1.78)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.140449)
+		(uuid "2306d4c8-3194-4f05-a493-01de401284d4")
+	)
+	(pad "3" smd roundrect
+		(at 4.765 1.27)
+		(size 2 1.78)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.140449)
+		(uuid "ae13755c-7bd3-4920-99ae-b9047277ecad")
+	)
+	(pad "4" smd roundrect
+		(at 4.765 -1.27)
+		(size 2 1.78)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.140449)
+		(uuid "038654c3-5f2b-4257-a138-6726e916b1c5")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/SMDIP-4_W9.53mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

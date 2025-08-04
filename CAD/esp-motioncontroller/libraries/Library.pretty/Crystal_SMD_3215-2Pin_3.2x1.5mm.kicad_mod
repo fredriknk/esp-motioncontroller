@@ -1,0 +1,218 @@
+(footprint "Crystal_SMD_3215-2Pin_3.2x1.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf")
+	(tags "SMD SMT Crystal")
+	(property "Reference" "REF**"
+		(at 0.155843 1.879089 180)
+		(layer "F.SilkS")
+		(uuid "bda3bb06-0ee1-46fe-8641-ac2277f1a8f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "32.768khz 3215 12.5pf"
+		(at 0 2 180)
+		(layer "F.Fab")
+		(uuid "e8915cda-b12e-44e2-a5b1-2608ed72eb85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810171817_Seiko-Epson-Q13FC1350000400_C32346.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "091adde9-3e12-4d60-bd64-f5955ce06e24")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c8cf0bc-2698-47d8-8ce1-aa78ec17e6f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part #" "C32346"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4dfd422-0690-4df8-80e0-ff2db4ab9da4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cac20e8f-73d5-4bc0-b87f-ea7a1afb9a82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.675 -0.875)
+		(end 0.675 -0.875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7289b03e-477e-47bd-a82a-a468a8631f96")
+	)
+	(fp_line
+		(start -0.675 0.875)
+		(end 0.675 0.875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbf2894d-bd8e-4c6c-bc01-737b02d407bf")
+	)
+	(fp_line
+		(start -2 -1.15)
+		(end -2 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "771e5cc4-451f-4874-903d-fbd2ba738ad4")
+	)
+	(fp_line
+		(start -2 -1.15)
+		(end 2 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "78cf5cc4-ce78-459c-984a-867245ef51ca")
+	)
+	(fp_line
+		(start -2 1.15)
+		(end 2 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "49b022ab-b45f-46ea-90f9-f29689445fa1")
+	)
+	(fp_line
+		(start 2 -1.15)
+		(end 2 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7b275cc-006a-4fca-ae49-b4af00249e04")
+	)
+	(fp_line
+		(start -1.6 -0.75)
+		(end -1.6 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a71260a-fdb5-4889-be12-fc82587e6dbb")
+	)
+	(fp_line
+		(start -1.6 -0.75)
+		(end 1.6 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "395a82eb-30a8-47c7-8a45-d6189833ae82")
+	)
+	(fp_line
+		(start -1.6 0.75)
+		(end 1.6 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "595fdb3b-9717-4d71-a162-646cf2786e78")
+	)
+	(fp_line
+		(start 1.6 -0.75)
+		(end 1.6 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96b3aa16-9330-4ed0-aa88-77edb20dd6c6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2 180)
+		(layer "F.Fab")
+		(uuid "e9b402f3-4e0a-4c59-a1f1-936e07cd4db4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.25 0)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f7cef32d-1769-40b3-94ad-11cde5401148")
+	)
+	(pad "2" smd rect
+		(at -1.25 0)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4a160eed-5eba-48f6-8f3e-318477053e81")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3215-2Pin_3.2x1.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

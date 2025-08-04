@@ -1,0 +1,218 @@
+(footprint "L_SOREDE_SNR.1050_10x10x5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Sorede 10x10x5mm Power Inductor, https://datasheet.lcsc.com/lcsc/2201141530_SOREDE-SNR-1050-TYD4R7MT00_C2942304.pdf")
+	(tags "Inductor Sorede SNR ")
+	(property "Reference" "REF**"
+		(at -7 4 0)
+		(layer "F.SilkS")
+		(uuid "a7e01187-5ca5-422f-a42a-3c46d9ca3e12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "68uH"
+		(at 0 6.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "63557800-2e95-4e8d-b88d-33ded2a83466")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79bec25a-206b-47fe-bb8e-dbdf6ba0ca38")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6e5d718-771c-40ad-a717-79073fa1f1d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TEST" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7133b45-3b55-49a4-8325-50919a4a9b2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part #" "C9187"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0756a559-9936-4327-8d2f-634c0d440507")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4d4cec7-0e20-4c67-aa14-56cc632c9a7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.1 -5.1)
+		(end 5.1 -5.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1ed51fd2-33c7-42b4-8e78-84789913fce2")
+	)
+	(fp_line
+		(start -5.1 -4.6)
+		(end -5.1 -5.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a8e31ace-782e-42ae-8eca-63fcf4d9b9cc")
+	)
+	(fp_line
+		(start -5.1 5.1)
+		(end -5.1 4.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9105f84e-8689-4def-99cf-9d4aaf26bc15")
+	)
+	(fp_line
+		(start 5.1 -5.1)
+		(end 5.1 -4.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eb96b450-3f8d-40b8-a244-5868da457d7e")
+	)
+	(fp_line
+		(start 5.1 4.6)
+		(end 5.1 5.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ca63dbd2-4869-4bda-82ed-7c23a2753f77")
+	)
+	(fp_line
+		(start 5.1 5.1)
+		(end -5.1 5.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8d261912-b697-483b-8d52-989a6d00463e")
+	)
+	(fp_rect
+		(start -5.35 -5.25)
+		(end 5.35 5.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1dda875a-0fe7-43f3-b3ef-9b103bf19f0e")
+	)
+	(fp_rect
+		(start -5 -5)
+		(end 5 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "79f408b2-3dba-4113-863f-8b967821c918")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "9eeaad64-156f-499c-8839-602e476f47b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.1 0)
+		(size 2 5.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "35a36cbd-4443-4f98-82ca-f7c024ad4318")
+	)
+	(pad "2" smd roundrect
+		(at 4.1 0)
+		(size 2 5.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "99584a39-bf29-4dc8-a5f4-ff09c278dd44")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_SNR.1050_10x10x5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
