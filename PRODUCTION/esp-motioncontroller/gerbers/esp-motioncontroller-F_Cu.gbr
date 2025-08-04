@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.3*%
-%TF.CreationDate,2025-08-04T14:39:42+02:00*%
+%TF.CreationDate,2025-08-04T15:00:31+02:00*%
 %TF.ProjectId,esp-motioncontroller,6573702d-6d6f-4746-996f-6e636f6e7472,1.0.0*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.3) date 2025-08-04 14:39:42*
+G04 Created by KiCad (PCBNEW 9.0.3) date 2025-08-04 15:00:31*
 %MOMM*%
 %LPD*%
 G01*
@@ -13340,6 +13340,7 @@ X112958097Y-77970641D01*
 X112996151Y-77992611D01*
 X113008215Y-77999577D01*
 X113160943Y-78040500D01*
+X113319057Y-78040500D01*
 X118458285Y-78040500D01*
 X118468607Y-78043531D01*
 X118479295Y-78042293D01*
