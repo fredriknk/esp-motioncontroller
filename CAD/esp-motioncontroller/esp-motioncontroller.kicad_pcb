@@ -8904,7 +8904,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "1734181f-7a8c-404f-a192-edc61b9f1a12")
+			(uuid "01dbb2f5-a87c-4351-8eba-cdcdb9807c17")
 		)
 		(pad "24" thru_hole oval
 			(at 22.86 50.8 270)
@@ -8926,7 +8926,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "19f96428-f673-450d-bcab-b542e1617dcc")
+			(uuid "2b0d8522-d7fa-4ff4-8339-17132d291e8d")
 		)
 		(pad "25" thru_hole oval
 			(at 22.86 48.26 270)
@@ -8948,7 +8948,7 @@
 			(net 49 "unconnected-(U1-GPIO19{slash}USB_D--Pad25)")
 			(pinfunction "GPIO19/USB_D-")
 			(pintype "bidirectional")
-			(uuid "6cfe8e0c-de23-45b9-9a0f-82d9bdd84832")
+			(uuid "9e12d5c2-652c-4aed-91cf-373ffcb8f394")
 		)
 		(pad "26" thru_hole oval
 			(at 22.86 45.72 270)
@@ -8970,7 +8970,7 @@
 			(net 47 "unconnected-(U1-GPIO20{slash}USB_D+-Pad26)")
 			(pinfunction "GPIO20/USB_D+")
 			(pintype "bidirectional")
-			(uuid "3c72afcb-1275-48bd-8e23-fa272f456cf6")
+			(uuid "11043be4-76a3-487a-91ad-4262b8d22347")
 		)
 		(pad "27" thru_hole oval
 			(at 22.86 43.18 270)
@@ -8992,7 +8992,7 @@
 			(net 16 "/InputOutput/RE{slash}DE")
 			(pinfunction "GPIO21")
 			(pintype "bidirectional")
-			(uuid "e98d9a9a-f577-41aa-9b99-e193a3a59d27")
+			(uuid "5a631cfb-98e6-4622-bd98-96dbdc1c6867")
 		)
 		(pad "28" thru_hole oval
 			(at 22.86 40.64 270)
@@ -9014,7 +9014,7 @@
 			(net 46 "unconnected-(U1-GPIO47-Pad28)")
 			(pinfunction "GPIO47")
 			(pintype "bidirectional")
-			(uuid "3be6e4c8-f802-4632-8b9d-e08a49462965")
+			(uuid "493914f5-76a7-44b8-a813-9a68eff5d767")
 		)
 		(pad "29" thru_hole oval
 			(at 22.86 38.1 270)
@@ -9036,7 +9036,7 @@
 			(net 48 "unconnected-(U1-GPIO48-Pad29)")
 			(pinfunction "GPIO48")
 			(pintype "bidirectional")
-			(uuid "4bcb720b-1012-4365-836d-116e5d3febe2")
+			(uuid "8340e8b9-86f8-42cf-8f59-c58d04890d65")
 		)
 		(pad "30" thru_hole oval
 			(at 22.86 35.56 270)
@@ -9058,7 +9058,7 @@
 			(net 94 "unconnected-(U1-GPIO45-Pad30)")
 			(pinfunction "GPIO45")
 			(pintype "bidirectional")
-			(uuid "f95068d1-6e8a-459d-a619-e665ab5fef60")
+			(uuid "cd009cac-8902-4471-a6fb-7fb1d534bf99")
 		)
 		(pad "31" thru_hole oval
 			(at 22.86 33.02 270)
@@ -9080,7 +9080,7 @@
 			(net 45 "unconnected-(U1-GPIO0-Pad31)")
 			(pinfunction "GPIO0")
 			(pintype "bidirectional")
-			(uuid "373468a2-416f-43c4-b0d5-6e039fee0c89")
+			(uuid "d0c1086d-293a-49dc-a784-940b48ed10d6")
 		)
 		(pad "32" thru_hole oval
 			(at 22.86 30.48 270)
@@ -9102,7 +9102,7 @@
 			(net 87 "unconnected-(U1-GPIO35-Pad32)")
 			(pinfunction "GPIO35")
 			(pintype "bidirectional")
-			(uuid "26c2e829-18eb-4af9-80d6-aeec6fc1bc05")
+			(uuid "9a63d113-b771-4a31-9217-d789634b27ab")
 		)
 		(pad "33" thru_hole oval
 			(at 22.86 27.94 270)
@@ -9124,7 +9124,7 @@
 			(net 88 "unconnected-(U1-GPIO36-Pad33)")
 			(pinfunction "GPIO36")
 			(pintype "bidirectional")
-			(uuid "40586951-3116-435c-87df-5a095a139f06")
+			(uuid "cdd2a98e-f23e-4e52-8704-3f98dc3705e2")
 		)
 		(pad "34" thru_hole oval
 			(at 22.86 25.4 270)
@@ -9146,7 +9146,7 @@
 			(net 86 "unconnected-(U1-GPIO37-Pad34)")
 			(pinfunction "GPIO37")
 			(pintype "bidirectional")
-			(uuid "11bb8f94-f075-475a-aa86-e4e5dac3692d")
+			(uuid "7dc32b5b-e3ee-42c9-aa06-56437829161d")
 		)
 		(pad "35" thru_hole oval
 			(at 22.86 22.86 270)
@@ -9168,7 +9168,7 @@
 			(net 95 "unconnected-(U1-GPIO38-Pad35)")
 			(pinfunction "GPIO38")
 			(pintype "bidirectional")
-			(uuid "a9f5879e-2f04-4f56-b4c9-0f9f7d7634d1")
+			(uuid "81118d69-5b07-4fcb-a1be-5e890a9aa5ff")
 		)
 		(pad "36" thru_hole oval
 			(at 22.86 20.32 270)
@@ -9190,7 +9190,7 @@
 			(net 44 "/InputOutput/OPTO_OUT_MCU_4")
 			(pinfunction "GPIO39/MTCK")
 			(pintype "bidirectional")
-			(uuid "5bce0cdf-c70a-4799-bc21-39c5fad23230")
+			(uuid "f21e0c59-e115-48ff-9176-c305cf905661")
 		)
 		(pad "37" thru_hole oval
 			(at 22.86 17.78 270)
@@ -9212,7 +9212,7 @@
 			(net 43 "/InputOutput/OPTO_OUT_MCU_3")
 			(pinfunction "GPIO40/MTDO")
 			(pintype "bidirectional")
-			(uuid "12c0b388-cbd3-42ff-bd7a-1559a129cb61")
+			(uuid "b3b785b2-3e7e-48cb-8c27-a86fc2da2a8a")
 		)
 		(pad "38" thru_hole oval
 			(at 22.86 15.24 270)
@@ -9234,7 +9234,7 @@
 			(net 24 "/InputOutput/OPTO_OUT_MCU_2")
 			(pinfunction "GPIO41/MTDI")
 			(pintype "bidirectional")
-			(uuid "0814bd68-ecb2-4679-abd0-4d045efffe1d")
+			(uuid "afe205ac-d5f3-4a21-b610-1d847718a0ca")
 		)
 		(pad "39" thru_hole oval
 			(at 22.86 12.7 270)
@@ -9256,7 +9256,7 @@
 			(net 25 "/InputOutput/OPTO_OUT_MCU_1")
 			(pinfunction "GPIO42/MTMS")
 			(pintype "bidirectional")
-			(uuid "6204e203-04dd-4337-981d-16a165d2fcec")
+			(uuid "cdeb78c5-ffab-4fff-b3a9-1697008fff13")
 		)
 		(pad "40" thru_hole oval
 			(at 22.86 10.16 270)
@@ -9278,7 +9278,7 @@
 			(net 15 "/InputOutput/TXD")
 			(pinfunction "GPIO2/ADC1_CH1")
 			(pintype "bidirectional")
-			(uuid "5c01c058-dcfa-4a8c-8e54-5be4fe4b2f96")
+			(uuid "d6ec150f-23b8-4509-9621-3e63a3a42098")
 		)
 		(pad "41" thru_hole oval
 			(at 22.86 7.62 270)
@@ -9300,7 +9300,7 @@
 			(net 12 "/InputOutput/RXD")
 			(pinfunction "GPIO1/ADC1_CH0")
 			(pintype "bidirectional")
-			(uuid "718fdb10-65b3-4831-bd85-0e68619167ce")
+			(uuid "ef3a5f4f-ed97-4eab-a193-3650faeb783f")
 		)
 		(pad "42" thru_hole oval
 			(at 22.86 5.08 270)
@@ -9322,7 +9322,7 @@
 			(net 5 "unconnected-(U1-GPIO44{slash}U0RXD-Pad42)")
 			(pinfunction "GPIO44/U0RXD")
 			(pintype "bidirectional")
-			(uuid "8dee63e4-fbbd-47c3-b39f-99f0ad8e06bc")
+			(uuid "cad466c5-b010-410f-9720-b36d844e34ea")
 		)
 		(pad "43" thru_hole oval
 			(at 22.86 2.54 270)
@@ -9344,7 +9344,7 @@
 			(net 6 "unconnected-(U1-GPIO43{slash}U0TXD-Pad43)")
 			(pinfunction "GPIO43/U0TXD")
 			(pintype "bidirectional")
-			(uuid "f09c09ca-7e5e-4488-86a1-51fdeadb84d8")
+			(uuid "8bf2f5af-2b03-4911-98e4-d20a1dba0187")
 		)
 		(pad "44" thru_hole oval
 			(at 22.86 0 270)
@@ -9366,7 +9366,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "17a3b421-bfeb-461a-bfb5-66cc6f0034f3")
+			(uuid "6d3d3a25-f3a8-42a3-96e0-fec9e1a35146")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/packages3D/YD-ESP32-S3 v34.step"
@@ -16840,7 +16840,7 @@
 			(net 89 "Net-(JP12-A)")
 			(pinfunction "VO")
 			(pintype "power_out")
-			(uuid "6ecdde81-3e8c-4fcd-9c59-748a1a506640")
+			(uuid "a9090cb8-9e63-4a4f-8bd7-80f66abe7f6e")
 		)
 		(pad "3" smd roundrect
 			(at -3.15 2.3 180)
@@ -37933,18 +37933,18 @@
 				(xy 112.005703 77.055384) (xy 112.012181 77.061416) (xy 112.755139 77.804374) (xy 112.755149 77.804385)
 				(xy 112.759479 77.808715) (xy 112.75948 77.808716) (xy 112.871284 77.92052) (xy 112.924905 77.951477)
 				(xy 112.958095 77.970639) (xy 112.958097 77.970641) (xy 112.996151 77.992611) (xy 113.008215 77.999577)
-				(xy 113.160943 78.0405) (xy 118.458285 78.0405) (xy 118.468607 78.043531) (xy 118.479295 78.042293)
-				(xy 118.501547 78.053203) (xy 118.525324 78.060185) (xy 118.534023 78.069126) (xy 118.54203 78.073052)
-				(xy 118.5644 78.100348) (xy 118.580065 78.126261) (xy 118.597953 78.15585) (xy 118.615789 78.223405)
-				(xy 118.597953 78.28415) (xy 118.594528 78.289814) (xy 118.594528 78.289815) (xy 118.57776 78.317552)
-				(xy 118.506522 78.435393) (xy 118.455913 78.597807) (xy 118.4495 78.668386) (xy 118.4495 79.331613)
-				(xy 118.455913 79.402192) (xy 118.455913 79.402194) (xy 118.455914 79.402196) (xy 118.506522 79.564606)
-				(xy 118.579817 79.685851) (xy 118.583512 79.699847) (xy 118.591672 79.711807) (xy 118.592253 79.732951)
-				(xy 118.597653 79.753403) (xy 118.593229 79.768469) (xy 118.593592 79.781651) (xy 118.579819 79.814146)
-				(xy 118.564402 79.839648) (xy 118.512877 79.886836) (xy 118.458285 79.8995) (xy 113.600097 79.8995)
-				(xy 113.533058 79.879815) (xy 113.512416 79.863181) (xy 111.836819 78.187584) (xy 111.803334 78.126261)
-				(xy 111.8005 78.099903) (xy 111.8005 77.149097) (xy 111.820185 77.082058) (xy 111.872989 77.036303)
-				(xy 111.942147 77.026359)
+				(xy 113.160943 78.0405) (xy 113.319057 78.0405) (xy 118.458285 78.0405) (xy 118.468607 78.043531)
+				(xy 118.479295 78.042293) (xy 118.501547 78.053203) (xy 118.525324 78.060185) (xy 118.534023 78.069126)
+				(xy 118.54203 78.073052) (xy 118.5644 78.100348) (xy 118.580065 78.126261) (xy 118.597953 78.15585)
+				(xy 118.615789 78.223405) (xy 118.597953 78.28415) (xy 118.594528 78.289814) (xy 118.594528 78.289815)
+				(xy 118.57776 78.317552) (xy 118.506522 78.435393) (xy 118.455913 78.597807) (xy 118.4495 78.668386)
+				(xy 118.4495 79.331613) (xy 118.455913 79.402192) (xy 118.455913 79.402194) (xy 118.455914 79.402196)
+				(xy 118.506522 79.564606) (xy 118.579817 79.685851) (xy 118.583512 79.699847) (xy 118.591672 79.711807)
+				(xy 118.592253 79.732951) (xy 118.597653 79.753403) (xy 118.593229 79.768469) (xy 118.593592 79.781651)
+				(xy 118.579819 79.814146) (xy 118.564402 79.839648) (xy 118.512877 79.886836) (xy 118.458285 79.8995)
+				(xy 113.600097 79.8995) (xy 113.533058 79.879815) (xy 113.512416 79.863181) (xy 111.836819 78.187584)
+				(xy 111.803334 78.126261) (xy 111.8005 78.099903) (xy 111.8005 77.149097) (xy 111.820185 77.082058)
+				(xy 111.872989 77.036303) (xy 111.942147 77.026359)
 			)
 		)
 		(filled_polygon
