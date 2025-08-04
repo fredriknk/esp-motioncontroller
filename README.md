@@ -16,4 +16,7 @@ INFO INFO
 ## SIDE
 ![Side](./PICTURES/esp-motioncontroller_side.png)
 
-INFO INFO
+# Before major commmits
+Remember to run generate_outputs.bat/sh
+to update the outputs and pictures.
+readmetemplate

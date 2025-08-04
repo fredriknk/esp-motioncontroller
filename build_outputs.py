@@ -88,7 +88,7 @@ Troubleshooting
 - "Could not add 3D model ..." / exit code 2:
   The script already accepts {0,2} on STEP export and continues. Check KiCad's
   Preferences → Configure Paths (e.g., KICAD9_3DMODEL_DIR) or add models to packages3D.
-- README.template.md encoding errors:
+- README template encoding errors:
   The script tries UTF-8/UTF-8-SIG/UTF-16/CP1252. If needed, re-save the template
   as UTF-8. See read_text_flexible() for details.
 - Renders look odd:
@@ -150,7 +150,9 @@ INFO INFO
 ## SIDE
 ![Side](./PICTURES/${PICTURE_SIDE})
 
-INFO INFO
+# Before major commmits
+Remember to run generate_outputs.bat/sh
+to update the outputs and pictures.
 """
 
 def read_text_flexible(path: Path) -> str:
